@@ -1,0 +1,61 @@
+site_name: Kiae - The better cloud native AppEngine base on the kubernetes and istio
+repo_url: https://github.com/kiaedev/kiae
+docs_dir: docs
+site_description: >-
+  The better cloud native AppEngine
+
+nav:
+  - Overview: index.md
+  - Installation: installation.md
+  - Concepts: concepts.md
+  - Architecture: architecture.md
+  - Getting Started: getting-started.md
+  - FAQ: FAQ.md
+  - Roadmap: roadmap.md
+  - Releases ⧉: https://github.com/kiaedev/kiae/releases
+  - Milestones ⧉: https://github.com/kiaedev/kiae/milestones
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  features:
+    - navigation.indexes
+  font:
+    text: Work Sans
+  palette:
+    - primary: teal
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      default_language_only: false
+      docs_structure: folder
+      languages:
+        en:
+          name: English
+          build: true
+          site_name: "The better cloud native AppEngine"
+        zh:
+          name: 中文
+          build: true
+          site_name: "更好的云原生应用引擎"
+      nav_translations:
+        zh:
+          Overview: 概述
+          Installation: 安装
+          Concepts: 概念
+          Architecture: 架构
+          Getting Started: 快速开始
+          FAQ: 常见问题
+          Roadmap: 路线图
+          Releases ⧉: 发布历史
+          Milestones ⧉: 里程碑
