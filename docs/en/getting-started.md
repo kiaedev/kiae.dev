@@ -7,8 +7,8 @@
 
 ```bash
 brew update
-brew install kubevela
 brew install kind
+brew install kubevela
 ```
 
 ## 2. Create a local cluster
@@ -65,11 +65,20 @@ The Kiae can then be accessed using [http://localhost:8081](http://localhost:808
 
 ## 6. Login the Kiae
 
+For the first login, you must login the with the administrator account. The default username and password is below:
+
 - Username: admin@example.com
 - Password: password
 
 ## 7. Configure the GitProvider
 
+You must [configure the GitProvider](/operator-manual/git-provider/) to support the developer get the source repository.
+
+
 ## 8. Configure the ImageRegistry
 
+You must [configure the ImageRegistry](/operator-manual/image-registry/) to support the ImageBuilder save image.
+
 ## 9. Configure the ImageBuilder
+
+You must [configure the ImageBuilder](/operator-manual/image-builder/) to support the developer build the source repository

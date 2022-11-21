@@ -1,15 +1,24 @@
-site_name: Kiae - The better cloud native AppEngine base on the kubernetes and istio
+site_name: Kiae - The Better CloudNative AppDevPlatform base on the Kubernetes and Istio
 repo_url: https://github.com/kiaedev/kiae
 docs_dir: docs
 site_description: >-
-  The better cloud native AppEngine
+  The Better CloudNative AppDevPlatform
 
 nav:
   - Overview: index.md
-  - Installation: installation.md
   - Concepts: concepts.md
   - Architecture: architecture.md
   - Getting Started: getting-started.md
+  - Operator Manual:
+      - Installation: operator-manual/installation.md
+      - Git Provider: operator-manual/git-provider.md
+      - Image Registry: operator-manual/image-registry.md
+      - Image Builder: operator-manual/image-builder.md
+  - User Guide:
+      - Create Project: user-guide/project-creation.md
+      - Config Project: user-guide/project-settings.md
+      - Build Image: user-guide/image-build.md
+      - New Application: user-guide/app-creation.md
   - FAQ: FAQ.md
   - Roadmap: roadmap.md
   - Releases ⧉: https://github.com/kiaedev/kiae/releases
@@ -43,7 +52,7 @@ plugins:
         en:
           name: English
           build: true
-          site_name: "The better cloud native AppEngine"
+          site_name: "The Better CloudNative AppDevPlatform"
         zh:
           name: 中文
           build: true
@@ -51,10 +60,10 @@ plugins:
       nav_translations:
         zh:
           Overview: 概述
-          Installation: 安装
           Concepts: 概念
           Architecture: 架构
           Getting Started: 快速开始
+          Installation: 安装
           FAQ: 常见问题
           Roadmap: 路线图
           Releases ⧉: 发布历史
