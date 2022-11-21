@@ -1,5 +1,3 @@
-
-
 ## Prerequisites
 
 - Kubernetes 1.22+
@@ -9,6 +7,20 @@
 - Loki 2.6+
 - Helm 3+
 
+## Install for Kind
 
+### Kind
 
-TODO
+```bash
+kind create cluster --name kiae --config samples/kind/config.yml
+```
+
+### Vela
+
+```bash
+vela install
+
+vela addon registry add Kiae --type helm --endpoint=https://kiaedev.github.io/vela-addons
+vela addon enable fluxcd
+vela addon enable kiae
+```
