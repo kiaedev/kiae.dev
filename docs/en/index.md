@@ -8,7 +8,7 @@ Kiae is a CloudNative Application Develop Platform base on the Kubernetes and Is
 
 Kubernetes and Istio are declarative softwares, and they are professional. So they are difficult to use for the application developer. For the company team, we usually build an internal cloud platform base on the Kubernetes. But it's always deeply integrated with the internal micro-services, and it's not integrated with Istio.
 
-Kiae built a open-source cloud platform base on the Kubernetes and Istio.
+Kiae built a open-source cloud platform completely base on the Kubernetes and Istio.
 
 ## Features
 
