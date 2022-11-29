@@ -33,7 +33,7 @@ vela install
 
 ```bash
 vela addon registry add Kiae --type helm --endpoint=https://kiaedev.github.io/vela-addons
-vela addon enable fluxcd
+vela addon enable fluxcd onlyHelmComponents=true
 vela addon enable kiae
 ```
 
