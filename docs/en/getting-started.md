@@ -23,18 +23,20 @@ nodes:
 kind create cluster --name kiae --config kind-kiae.yaml
 ```
 
-## 3. Install the kubevela-core
+## 3. Install the kubevela-core and kiae addons
 
 ```bash
 vela install
+vela addon registry add Kiae --type helm --endpoint=https://kiaedev.github.io/vela-addons
+vela addon enable kiae
 ```
 
 ## 4. Install the Kiae
 
 ```bash
-vela addon registry add Kiae --type helm --endpoint=https://kiaedev.github.io/vela-addons
-vela addon enable fluxcd onlyHelmComponents=true
-vela addon enable kiae
+helm repo add kiaedev https://kiaedev.github.io/helm-charts
+helm repo update
+helm install --namespace kiae-system --create-namespace kiae kiaedev/kiae
 ```
 
 ## 5. Access the Kiae
@@ -48,10 +50,6 @@ Change the kiae service type to LoadBalancer:
 ```bash
 kubectl patch svc kiae -n kiae-system -p '{"spec": {"type": "LoadBalancer"}}'
 ```
-
-### IngressGateway
-
-Follow the ingressgateway documentation on how to configure Kiae with ingressgateway.
 
 ### Port Forwarding
 
@@ -73,7 +71,6 @@ For the first login, you must login the with the administrator account. The defa
 ## 7. Configure the GitProvider
 
 You must [configure the GitProvider](/operator-manual/git-provider/) to support the developer get the source repository.
-
 
 ## 8. Configure the ImageRegistry
 
