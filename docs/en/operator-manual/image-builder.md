@@ -6,6 +6,8 @@ But it's easier here. You only need to input the buildpacks parameters, builder 
 
 ## New Builder
 
-Like this, let's create a builder that supports the go language
+Like this, let's create a builder that supports the go language.
 
 ![github](/assets/images/SCR-20221129-wbd.png)
+
+The `paketo-buildpacks/go` built from [paketo-buildpacks](https://paketo.io/), You can find other languages at the [docs](https://paketo.io/docs/)
