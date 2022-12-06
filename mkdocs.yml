@@ -15,10 +15,9 @@ nav:
       - Image Registry: operator-manual/image-registry.md
       - Image Builder: operator-manual/image-builder.md
   - User Guide:
-      - Create Project: user-guide/project-creation.md
-      - Config Project: user-guide/project-settings.md
-      - Build Image: user-guide/image-build.md
-      - New Application: user-guide/app-creation.md
+      - Project: user-guide/project.md
+      - Image: user-guide/image.md
+      - Application: user-guide/application.md
   - FAQ: FAQ.md
   - Roadmap: roadmap.md
   - Releases ⧉: https://github.com/kiaedev/kiae/releases
