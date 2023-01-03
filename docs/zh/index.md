@@ -1,27 +1,35 @@
-## Kiae是什么?
+# Welcome to Kiae
 
-Kiae是一个基于Kubernetes和Istio的云原生应用开发平台，在Kiae上您可以很简单的完成应用的构建、部署及日常维护。
+## What is Kiae?
 
-## 为什么要使用Kiae?
-微服务架构带来了极大的复杂性，当我们把微服务部署在K8S上的时候，我们又要学习大量K8S相关的知识。而对于一般业务开发人员来说，我们只是想专注于业务开发，而非把时间浪费在繁琐的Devops流程中。
-Kiae基于Kubernetes和Istio实现了一个完全云原生化的应用开发平台，在Kiae上您可以像使用Vercel一样很简单的完成项目配置，然后就拥有了全套的自动构建及自动部署流程。
+Kiae is a CloudNative Application Develop Platform base on the Kubernetes and Istio.
 
-## 功能介绍
+## Why Kiae?
 
-- 自动构建
-- 自动部署
-- 运行时环境
-- 配置中心
-- 环境变量
-- 网关配置
-- 鉴权控制
-- 熔断降级
-- 限流降级
+Kubernetes and Istio are declarative softwares, and they are professional. So they are difficult to use for the application developer. For the company team, we usually build an internal cloud platform base on the Kubernetes. But it's always deeply integrated with the internal micro-services, and it's not integrated with Istio.
 
-## 快速开始
+Kiae built a open-source cloud platform completely base on the Kubernetes and Istio.
 
-按照完整的[快速入门](getting-started/)手册，逐步完成创建卷展栏对象，然后更新卷展栏对象。
+## Features
 
-## 它是怎么工作的?
+- Git integration (GitHub, BitBucket, GitLab)
+- Build image from the Git source repository
+- Automatically push image to the image registry
+- Deploy any image to multiple environments and multiple clusters
+- Application level Observability with the Open-Telemetry
+- Dependents management for the applications and the middlewares
+- ConfigFiles management base on the ConfigMap and Secret
+- Environments management for the multiple environments and multiple clusters
+- Routes management base on the Istio VisualServices
+- Entrypoint management base on the Istio IngressGateway
+- Access controls management base on the Istio AuthzPolicy
+- Web UI which provides real-time view of application activity
+- SSO Integration (OIDC, OAuth2, LDAP, SAML 2.0, GitHub, GitLab, Microsoft, LinkedIn)
+
+## Quick Start
+
+Follow the full [getting started guide](/getting-started/) to walk through install and then visit the self-hosted Kiae.
+
+## How does it work?
 
 TODO

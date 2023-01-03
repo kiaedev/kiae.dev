@@ -63,6 +63,14 @@ plugins:
           Architecture: 架构
           Getting Started: 快速开始
           Installation: 安装
+          Operator Manual: 运维手册
+          User Guide: 用户教程
+          Git Provider: Git提供商
+          Image Registry: 镜像仓库
+          Image Builder: 镜像构建器
+          Project: 项目管理
+          Image: 镜像管理
+          Application: 应用管理
           FAQ: 常见问题
           Roadmap: 路线图
           Releases ⧉: 发布历史
