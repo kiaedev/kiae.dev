@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>None.</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
+         
+    </url>
+    <url>
+         <loc>NoneFAQ/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/FAQ/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/FAQ/"/>
+         
+    </url>
+    <url>
+         <loc>Nonearchitecture/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/architecture/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/architecture/"/>
+         
+    </url>
+    <url>
+         <loc>Noneconcepts/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/concepts/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/concepts/"/>
+         
+    </url>
+    <url>
+         <loc>Nonegetting-started/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/getting-started/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/getting-started/"/>
+         
+    </url>
+    <url>
+         <loc>Noneroadmap/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/roadmap/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/roadmap/"/>
+         
+    </url>
+    <url>
+         <loc>Noneoperator-manual/git-provider/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/operator-manual/git-provider/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operator-manual/git-provider/"/>
+         
+    </url>
+    <url>
+         <loc>Noneoperator-manual/image-builder/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/operator-manual/image-builder/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operator-manual/image-builder/"/>
+         
+    </url>
+    <url>
+         <loc>Noneoperator-manual/image-registry/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/operator-manual/image-registry/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operator-manual/image-registry/"/>
+         
+    </url>
+    <url>
+         <loc>Noneoperator-manual/installation/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/operator-manual/installation/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/operator-manual/installation/"/>
+         
+    </url>
+    <url>
+         <loc>Noneuser-guide/application/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/user-guide/application/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/user-guide/application/"/>
+         
+    </url>
+    <url>
+         <loc>Noneuser-guide/image/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/user-guide/image/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/user-guide/image/"/>
+         
+    </url>
+    <url>
+         <loc>Noneuser-guide/project/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/user-guide/project/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/user-guide/project/"/>
+         
+    </url>
+</urlset>
